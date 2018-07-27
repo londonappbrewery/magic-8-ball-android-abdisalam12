@@ -31,7 +31,7 @@ myButton.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
         Random randomNumberGenerator = new Random();
-     int number = randomNumberGenerator.nextInt(4);
+     int number = randomNumberGenerator.nextInt(5);
      Log.d("8 ball","the random number is "+ number);
      ballDisplay.setImageResource(ballArray[number]);
 
